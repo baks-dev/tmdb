@@ -2,7 +2,7 @@
 
 ![Version](https://img.shields.io/badge/version-7.0.0-blue) ![php 8.2+](https://img.shields.io/badge/php-min%208.1-red.svg)
 
-Модуль Wildberries Api
+Модуль TheMovieDB Api (TMDB)
 
 ## Установка
 

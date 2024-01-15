@@ -23,7 +23,7 @@
 
 declare(strict_types=1);
 
-namespace BaksDev\TheMovieDB;
+namespace BaksDev\Tmdb;
 
 use DirectoryIterator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

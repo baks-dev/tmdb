@@ -30,7 +30,7 @@ return static function(ContainerConfigurator $configurator) {
         ->autowire()
         ->autoconfigure();
 
-    $NAMESPACE = 'BaksDev\TheMovieDB\\';
+    $NAMESPACE = 'BaksDev\Tmdb\\';
 
     $MODULE = substr(__DIR__, 0, strpos(__DIR__, "Resources"));
 

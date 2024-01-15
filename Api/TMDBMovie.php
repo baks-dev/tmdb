@@ -23,9 +23,9 @@
 
 declare(strict_types=1);
 
-namespace BaksDev\TheMovieDB\Api;
+namespace BaksDev\Tmdb\Api;
 
-final class Movie extends TheMovieDB
+final class TMDBMovie extends TheMovieDB
 {
 
 

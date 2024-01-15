@@ -23,7 +23,7 @@
 
 declare(strict_types=1);
 
-namespace BaksDev\TheMovieDB\Api;
+namespace BaksDev\Tmdb\Api;
 
 use BaksDev\Users\Profile\UserProfile\Type\Id\UserProfileUid;
 use BaksDev\Wildberries\Repository\WbTokenByProfile\WbTokenByProfileInterface;

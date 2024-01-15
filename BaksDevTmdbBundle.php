@@ -30,7 +30,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 
-class BaksDevTheMovieDBBundle extends AbstractBundle
+class BaksDevTmdbBundle extends AbstractBundle
 {
 	public function prependExtension(ContainerConfigurator $container, ContainerBuilder $builder) : void
 	{

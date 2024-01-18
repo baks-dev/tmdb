@@ -54,12 +54,9 @@ abstract class TheMovieDB
 
     protected function TokenHttpClient(): RetryableHttpClient
     {
-//        $this->headers = [
-//            'Authorization' => 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwN2ZkNDFmZTQ1MDMyMDQzOTZkOTliMWVkN2JkN2M5OSIsInN1YiI6IjY1YTU4NGM5MWZiOTRmMDBjMDc0YzkyNCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.L_lvYyyvfEIs7eG1ua2p2EFjofQgcPHCEhCX01ujEmU',
-//            'accept: application/json'
-//        ];
 
-        $this->headers['Authorization'] = 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwN2ZkNDFmZTQ1MDMyMDQzOTZkOTliMWVkN2JkN2M5OSIsInN1YiI6IjY1YTU4NGM5MWZiOTRmMDBjMDc0YzkyNCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.L_lvYyyvfEIs7eG1ua2p2EFjofQgcPHCEhCX01ujEmU';
+
+        $this->headers['Authorization'] = 'Bearer ';
         $this->headers['accept'] = 'application/json';
         $this->headers['Content-Type'] = 'application/json';
 
